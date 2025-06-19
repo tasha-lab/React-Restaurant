@@ -31,12 +31,12 @@ body {
 
 .Navbar {
   /* border:2px solid red; */
-  height:8rem;
+  height: 8rem;
   align-items: center;
   font-family: var(--first-font-family);
   display: flex;
   justify-content: center;
-  gap:20rem;
+  gap: 20rem;
   font-size: 2.2rem;
   padding: 1rem;
   /* background-color: var(--salmon-pink); */
@@ -102,70 +102,69 @@ button {
   }
 }
 
-.content-container{
+.content-container {
   /* border: 2px solid black; */
   margin: 1rem 5rem;
-  display:flex;
+  display: flex;
   justify-content: center;
-  gap:2rem;
+  gap: 2rem;
   flex-wrap: wrap;
 }
 .page-content {
-  
   /* border: 2px solid blue; */
-  height:40rem;
-  width:30rem;
+  height: 40rem;
+  width: 30rem;
   background-color: white;
-  border-radius: .8rem;
-  margin:2rem;
+  border-radius: 0.8rem;
+  margin: 2rem;
   position: relative;
 }
-.imgContent{
-  height:25rem;
-  position:relative;
+.imgContent {
+  height: 25rem;
+  position: relative;
 }
-.imgContent img{
-  height:100%;
+.imgContent img {
+  height: 100%;
   width: 100%;
   object-fit: cover;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
 }
-.off{
+.off {
   position: absolute;
   background-color: orange;
-  width:5rem;
-  height:2.5rem;
-  border-radius:.5rem;
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
   color: white;
   font-size: 1.5rem;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-.rate{
+.rate {
   position: absolute;
   text-align: right;
-  bottom:1rem;
-  right:1.5rem;
+  bottom: 1rem;
+  right: 1.5rem;
   background-color: white;
-  width:6rem;
+  width: 6rem;
   text-align: center;
-  border-radius:.5rem;
+  border-radius: 0.5rem;
 }
-.icon{
+.icon {
   color: orange;
 }
-.typed-content{
+.typed-content {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.heading{
+.heading {
   font-family: var(--first-font-family);
   font-weight: 800;
   font-size: 2rem;
   padding-left: 1rem;
 }
-.text{
+.text {
   font-family: var(--second-font-family);
   font-size: 1.5rem;
   font-weight: 300;
@@ -173,13 +172,13 @@ button {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.pricing{
+.pricing {
   font-family: var(--first-font-family);
   padding-left: 1rem;
   font-size: 2.2rem;
   font-weight: bold;
   /* color: red; */
 }
-.pricing h4{
+.pricing h4 {
   color: red;
 }
